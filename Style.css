@@ -1,0 +1,150 @@
+/* This is the CSS code for all sections under the code of HTML */ 
+html{
+    background-color:#A3B17E;
+}
+/* This is the CSS code for heading level 1 */
+h1{
+font-size: 50px;
+font-family: 'Great Vibes', cursive;
+}
+/* This is the CSS code for the Menu */
+ul{
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0 ;
+ overflow:hidden;
+  background-color: white;
+}
+/* This is the CSS code for the Menu but for the "Li" section */
+li {
+float: left;
+}
+
+/* This is the CSS code for the Menu but only for the links included in "Li" section */
+li a {
+  display:block;
+  color: #000;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+/* This is the CSS code for the links which are assigned with the Class="active".
+This link is to show the user in which page or part of menu they are. */
+
+li a.active {
+  background-color: darkolivegreen ;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: darkolivegreen ;
+  color: white;
+}
+
+/* This is codes for the side by side images */
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */ 
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* This is the CSS codes for text in banner */
+.bg-text {
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4); 
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+
+ /* Fallback color */
+/* Black w/opacity/see-through */
+
+.Chef-text {
+  Background-color: white;
+  color: black;
+  font-family: 'Satisfy', cursive;
+  font-family: 'Tangerine', cursive;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 80%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+
+/*Backgroundcolor
+ background-color: rgba(0,0,0, 0.4);
+ background-color: rgb(0,0,0);
+*/
+
+
+/* Mneu car */
+.card {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: left;
+  text-align: center;
+  font-family: arial;
+}
+
+.card2 {
+   background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: left;
+  text-align: center;
+  font-family: arial;
+}
+ 
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
